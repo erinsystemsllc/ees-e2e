@@ -13,6 +13,7 @@ test("dashboard", async ({ page }) => {
   await page.isVisible("text=90% танилцсан");
   await page.isVisible("text=Танилцсан дундаж хувь");
   await page.isVisible("text=Цахим сургалттай танилцсан хугацаа");
+  await page.isVisible("text=hello");
   await page.isVisible("text=Алба хэлтэс");
   await page.isVisible("text=Эхлэх");
   await page.isVisible("text=Дуусгах");

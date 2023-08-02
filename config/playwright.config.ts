@@ -24,6 +24,7 @@ export default defineConfig({
       },
       dependencies: ["setup"],
     },
+    
   ],
   // Run your local dev server before starting the tests.
   webServer: {
