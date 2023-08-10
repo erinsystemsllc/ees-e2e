@@ -1,15 +1,75 @@
 {
   "cookies": [
     {
-      "name": "JSESSIONID",
-      "value": "84ac6d70-0f17-4577-ae55-4ec023fd11f6",
-      "domain": "test-lms.erin.systems",
-      "path": "/",
+      "name": "AUTH_SESSION_ID",
+      "value": "8da6ab12-c145-4071-8740-c55f6e7bfee9.48380024f391",
+      "domain": "test-accounting.erin.systems",
+      "path": "/auth/realms/MOJHA/",
       "expires": -1,
       "httpOnly": true,
-      "secure": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "AUTH_SESSION_ID_LEGACY",
+      "value": "8da6ab12-c145-4071-8740-c55f6e7bfee9.48380024f391",
+      "domain": "test-accounting.erin.systems",
+      "path": "/auth/realms/MOJHA/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "KEYCLOAK_IDENTITY",
+      "value": "eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI0Y2JkNmRlNS1kY2JiLTRjY2QtOWU4NS0xMDc4MDY1MWY4ZjIifQ.eyJleHAiOjE2ODU5OTk5NjgsImlhdCI6MTY4NTk2Mzk2OCwianRpIjoiZjkyYWMwNTktODIyMy00MWZlLTk0ZmEtOTkwZmQyMWQxMzE2IiwiaXNzIjoiaHR0cHM6Ly90ZXN0LWFjY291bnRpbmcuZXJpbi5zeXN0ZW1zL2F1dGgvcmVhbG1zL01PSkhBIiwic3ViIjoiMTI4MGRmZDEtNWZmNC00NTA5LTg3NGEtMWM5YmZlMmYyMzU5IiwidHlwIjoiU2VyaWFsaXplZC1JRCIsInNlc3Npb25fc3RhdGUiOiI4ZGE2YWIxMi1jMTQ1LTQwNzEtODc0MC1jNTVmNmU3YmZlZTkiLCJzaWQiOiI4ZGE2YWIxMi1jMTQ1LTQwNzEtODc0MC1jNTVmNmU3YmZlZTkiLCJzdGF0ZV9jaGVja2VyIjoidF9LdWxLMWdLaHVPMXo5OEV4Q3dxYTNuWlRPVnpUeEdrY015TEtuLWJKdyJ9.Gq4mR8ZA1ImInMwRLJpjqOtxIbJlA1S_dIvl882_5ys",
+      "domain": "test-accounting.erin.systems",
+      "path": "/auth/realms/MOJHA/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "KEYCLOAK_IDENTITY_LEGACY",
+      "value": "eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI0Y2JkNmRlNS1kY2JiLTRjY2QtOWU4NS0xMDc4MDY1MWY4ZjIifQ.eyJleHAiOjE2ODU5OTk5NjgsImlhdCI6MTY4NTk2Mzk2OCwianRpIjoiZjkyYWMwNTktODIyMy00MWZlLTk0ZmEtOTkwZmQyMWQxMzE2IiwiaXNzIjoiaHR0cHM6Ly90ZXN0LWFjY291bnRpbmcuZXJpbi5zeXN0ZW1zL2F1dGgvcmVhbG1zL01PSkhBIiwic3ViIjoiMTI4MGRmZDEtNWZmNC00NTA5LTg3NGEtMWM5YmZlMmYyMzU5IiwidHlwIjoiU2VyaWFsaXplZC1JRCIsInNlc3Npb25fc3RhdGUiOiI4ZGE2YWIxMi1jMTQ1LTQwNzEtODc0MC1jNTVmNmU3YmZlZTkiLCJzaWQiOiI4ZGE2YWIxMi1jMTQ1LTQwNzEtODc0MC1jNTVmNmU3YmZlZTkiLCJzdGF0ZV9jaGVja2VyIjoidF9LdWxLMWdLaHVPMXo5OEV4Q3dxYTNuWlRPVnpUeEdrY015TEtuLWJKdyJ9.Gq4mR8ZA1ImInMwRLJpjqOtxIbJlA1S_dIvl882_5ys",
+      "domain": "test-accounting.erin.systems",
+      "path": "/auth/realms/MOJHA/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "KEYCLOAK_SESSION",
+      "value": "MOJHA/1280dfd1-5ff4-4509-874a-1c9bfe2f2359/8da6ab12-c145-4071-8740-c55f6e7bfee9",
+      "domain": "test-accounting.erin.systems",
+      "path": "/auth/realms/MOJHA/",
+      "expires": 1685999970.544516,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "KEYCLOAK_SESSION_LEGACY",
+      "value": "MOJHA/1280dfd1-5ff4-4509-874a-1c9bfe2f2359/8da6ab12-c145-4071-8740-c55f6e7bfee9",
+      "domain": "test-accounting.erin.systems",
+      "path": "/auth/realms/MOJHA/",
+      "expires": 1685999970.544537,
+      "httpOnly": false,
+      "secure": true,
       "sameSite": "Lax"
     }
   ],
-  "origins": []
+  "origins": [
+    {
+      "origin": "https://test-accounting.erin.systems",
+      "localStorage": [
+        {
+          "name": "token",
+          "value": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJON25BRGpTVWZtejJ6QkdsTWlHSVhXZmF4UXRWQUptU01aTHloMXk3R3J3In0.eyJleHAiOjE2ODU5NjQyNjgsImlhdCI6MTY4NTk2Mzk2OCwiYXV0aF90aW1lIjoxNjg1OTYzOTY4LCJqdGkiOiI1YmFiMzU5Zi0yMTU1LTQyYWMtODhiZC1hZGI4ZTA0ZDg3ZTciLCJpc3MiOiJodHRwczovL3Rlc3QtYWNjb3VudGluZy5lcmluLnN5c3RlbXMvYXV0aC9yZWFsbXMvTU9KSEEiLCJzdWIiOiIxMjgwZGZkMS01ZmY0LTQ1MDktODc0YS0xYzliZmUyZjIzNTkiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJhbXMtY2xpZW50Iiwibm9uY2UiOiI4NjUyMTljZi0wZDU5LTQ1YjgtYTIyZC03ZjcwNDA2OWYxMzgiLCJzZXNzaW9uX3N0YXRlIjoiOGRhNmFiMTItYzE0NS00MDcxLTg3NDAtYzU1ZjZlN2JmZWU5IiwiYWNyIjoiMSIsImFsbG93ZWQtb3JpZ2lucyI6WyIqIl0sInJlYWxtX2FjY2VzcyI6eyJyb2xlcyI6WyLQldGA06nQvdGF0LjQuSDQvdGP0LPRgtC70LDQvSJdfSwic2NvcGUiOiJvcGVuaWQgZW1haWwgcHJvZmlsZSIsInNpZCI6IjhkYTZhYjEyLWMxNDUtNDA3MS04NzQwLWM1NWY2ZTdiZmVlOSIsImVtYWlsX3ZlcmlmaWVkIjpmYWxzZSwibmFtZSI6ItCQ0LTQvNC40L0iLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJieWFtYmFhIiwiZ2l2ZW5fbmFtZSI6ItCQ0LTQvNC40L0iLCJmYW1pbHlfbmFtZSI6IiIsImVtYWlsIjoibWJ5YW1iYWphdjA1QGdtYWlsLmNvbSJ9.VxPOHpQYLGSLhAfWltJOu_CeH-c3hpa24nypWXoxm8Fzkrj-dp9wgGLgilMmmMDdkRbFAc66OBJ_SkvGieJK1gT0qG6P3LjaSmPgloTSH8jE9LBQjAwKUNdtsUVQ8KgT68PQR4E40ubLSNX6lQfp-QzvQuSXq9-teDWF3-j-OLEhwdwjhU3YbxDObA6lm6GYm7BGLUVDb6PIGxYbXrvYAZ3aGdWpwj2SHRyeqCYd-hUUXYR2USsr-efyFtP3w5zv81AVRRWHr8zXnluqYr6FgKkN_8Tqp95R2EY1WvOFlaZhCzs_JTfvofu_ZgP2hyPc6VtUGj4s0Ph8jhQhx95AQg"
+        }
+      ]
+    }
+  ]
 }
